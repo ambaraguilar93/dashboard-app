@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    
+    <div class="nav-container">us proyectos
+    Actividad semanal
+
+      <div class="nav">
+          <div class="logo">
+              <img src="../assets/logoSB.jpg">
+              <div>
+                <a href="#">SB Tech Solutions</a>
+              </div>
+          </div>
+
+          <div class="nav-links">
+              <a href="#">Inicio</a>
+              <a href="#">Proyectos</a>
+              <a href="#">Estadisticas</a>
+              <a href="#">Reportes</a>
+              
+          </div>
+
+          <div class="nav-search">
+              <i class='bx bx-bell'></i>
+              <i class='bx bx-search'></i>
+
+              <div class="profile">
+                  <div class="info">
+                      <img src="../assets/profile.jpg">
+                      <div>
+                          <a href="">Mr. Dudu Bear</a>
+                          <p>Gerente general</p>
+                      </div>
+                  </div>
+              </div>     
+        </div>
+      </div> <!-- div cierre de nav -->
+
+      <div class="nav-projects">
+        <div class="header">
+          <h4 id="projects">Tus proyectos</h4>
+          <h4 id="activities">Actividad semanal</h4>
+        </div>  
+        
+        <div class="items-list">
+          <div class="item">
+              <div class="info">
+                  <div>
+                      <h5>Analisis de datos</h5>
+                      <p>- 1 reunion pendiente hoy</p>
+                      <p>- 3 reportes listos para ser revisados</p>
+                  </div>
+                  <i class='bx bx-data'></i>
+              </div>
+              <div class="progress">
+                  <div class="bar"></div>
+              </div>
+          </div>
+          <div class="item">
+              <div class="info">
+                  <div>
+                      <h5>Capacitaciones</h5>
+                      <p>- 2 tranings en curso</p>
+                      <p>- 1 reporte listo para ser revisado</p>
+                  </div>
+                  <i class='bx bx-terminal'></i>
+              </div>
+              <div class="progress">
+                  <div class="bar"></div>
+              </div>
+          </div>
+          <div class="item">
+              <div class="info">
+                  <div>
+                      <h5>Procedimientos</h5>
+                      <p>- 4 colaboradores requeridos en area comercial</p>
+                      <p>- 8 colaboradores requeridos en servicio al cliente</p>
+                      <p>- 2 irregularidades en Recursos Humanos</p>
+                  </div>
+                  <i class='bx bxl-python'></i>
+              </div>
+              <div class="progress">
+                  <div class="bar"></div>
+              </div>
+          </div>
+          <div class="item">
+              <canvas class="activity-chart"></canvas>
+          </div>
+      </div>
+    </div> <!-- div cierre de nav-container -->
+</div>
+
+    <div class="main-container">
+        <div class="task">
+            <div class="header">
+                <h4>Planificacion Julio 2024</h4>
+                <i class='bx bx-task'></i>
+                <p>Gestion de proveedores y productos requeridos para una optima administracion.</p>
+            </div>
+            
+            <div class="user">
+                <button>Ver mas<i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
